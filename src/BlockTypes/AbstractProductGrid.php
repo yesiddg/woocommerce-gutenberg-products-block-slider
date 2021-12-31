@@ -116,7 +116,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 		);
 
 		return sprintf(
-			'<div class="%s"><ul class="wc-block-grid__products">%s</ul></div>',
+			'<div class="%s swiper"><ul class="wc-block-grid__products swiper-wrapper">%s</ul><div class="swiper-pagination"></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>',
 			esc_attr( $this->get_container_classes() ),
 			implode( '', array_map( array( $this, 'render_product' ), $products ) )
 		);
@@ -446,7 +446,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 			'wc-block-grid',
 			"wp-block-{$this->block_name}",
 			"wc-block-{$this->block_name}",
-			"has-{$this->attributes['columns']}-columns",
+			// "has-{$this->attributes['columns']}-columns",
 		);
 
 		if ( $this->attributes['rows'] > 1 ) {
