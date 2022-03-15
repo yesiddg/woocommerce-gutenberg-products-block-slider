@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: WooCommerce Blocks
- * Plugin URI: https://github.com/woocommerce/woocommerce-gutenberg-products-block
- * Description: WooCommerce blocks for the Gutenberg editor.
- * Version: 7.3.0-dev
- * Author: Automattic
- * Author URI: https://woocommerce.com
- * Text Domain:  woo-gutenberg-products-block
+ * Plugin Name: WooCommerce Blocks With Steroids
+ * Plugin URI: https://github.com/yesiddg/woocommerce-gutenberg-products-block-slider/
+ * Description: WooCommerce blocks for the Gutenberg editor with slider support.
+ * Version: 1.0.0
+ * Author: Yeligoth
+ * Author URI: https://yeligoth.com
+ * Text Domain: woo-gutenberg-products-block
  * Requires at least: 5.9
  * Requires PHP: 7.0
  * WC requires at least: 6.0
