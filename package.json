@@ -1,10 +1,10 @@
 {
 	"name": "@woocommerce/block-library",
 	"title": "WooCommerce Blocks",
-	"author": "Automattic",
-	"version": "7.3.0-dev",
-	"description": "WooCommerce blocks for the Gutenberg editor.",
-	"homepage": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/",
+	"author": "Yeligoth",
+	"version": "1.0.0",
+	"description": "Fork of WooCommerce blocks for the Gutenberg editor with slider feature support.",
+	"homepage": "https://github.com/yesiddg/woocommerce-gutenberg-products-block-slider",
 	"keywords": [
 		"woocommerce",
 		"wordpress",
