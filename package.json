@@ -246,10 +246,6 @@
 		"*.{js,ts,tsx}": [
 			"prettier --write",
 			"npm run lint:js"
-		],
-		"*.php": [
-			"php -d display_errors=1 -l",
-			"composer run-script phpcs"
 		]
 	},
 	"changelog": {
